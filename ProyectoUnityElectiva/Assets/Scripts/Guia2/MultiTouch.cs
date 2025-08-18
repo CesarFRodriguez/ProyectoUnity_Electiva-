@@ -22,7 +22,7 @@ public class MultiTouch : MonoBehaviour
         {
             for (int i = 0; i < Input.touchCount; i++)
             {
-                theTouch = Input.GetTouch(0);
+                theTouch = Input.GetTouch(i);
                 string info = "Touch " + i.ToString() + "\nCordenadas: \nX: " + theTouch.position.x + "\nY: " + theTouch.position.y + "\n";
                 multiTouchInfo += info;
             }
