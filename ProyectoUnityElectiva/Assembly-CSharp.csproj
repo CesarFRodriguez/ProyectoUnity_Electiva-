@@ -71,6 +71,8 @@
     <Compile Include="Assets\Scripts\Menu_escenas.cs" />
     <Compile Include="Assets\Scripts\RegistroGrupo.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\Guia2\Gestos.cs" />
+    <Compile Include="Assets\Scripts\Guia2\Acelerometro.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\BackButton.cs" />
   </ItemGroup>
