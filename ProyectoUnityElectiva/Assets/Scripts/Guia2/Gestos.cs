@@ -13,6 +13,7 @@ public class Gestos : MonoBehaviour
     private Vector3 position = new Vector3(0, 0, 0);
     public float sensibility = 5.0f;
     public float zoomSpeed = 0.01f;
+    public float speed = 0.1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,8 +46,8 @@ public class Gestos : MonoBehaviour
 
                 float difference = Vector2.Distance(Touch1Current, Touch2Current) - Vector2.Distance(Touch1Prev, Touch2Prev);
                 zoom.z = difference * zoomSpeed;
-                position.x = Touch1.position.x;
-                position.y = Touch1.position.y;
+                position.x = Touch1.position.x * speed;
+                position.y = Touch1.position.y * speed;
             }
         }
         rotationPivot.transform.localRotation = Quaternion.Euler(rotation);
