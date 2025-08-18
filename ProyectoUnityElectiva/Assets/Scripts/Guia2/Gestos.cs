@@ -27,14 +27,17 @@ public class Gestos : MonoBehaviour
         if (Input.touchCount > 0)
         {
             theTouch = Input.GetTouch(0);
-            if (theTouch.phase == TouchPhase.Moved || theTouch.phase == TouchPhase.Ended)
+            if (Input.touchCount == 1)
             {
-                Vector2 delta = theTouch.deltaPosition;
-                float x = delta.x;
-                float y = delta.y;
-                rotation = rotation + new Vector3(-sensibility * y, sensibility * x, 0f);
+                if (theTouch.phase == TouchPhase.Moved || theTouch.phase == TouchPhase.Ended)
+                {
+                    Vector2 delta = theTouch.deltaPosition;
+                    float x = delta.x;
+                    float y = delta.y;
+                    rotation = rotation + new Vector3(-sensibility * y, sensibility * x, 0f);
+                }
             }
-            if (Input.touchCount == 2)
+            else if (Input.touchCount == 2)
             {
                 Touch Touch1 = Input.GetTouch(0);
                 Touch Touch2 = Input.GetTouch(1);
@@ -45,9 +48,17 @@ public class Gestos : MonoBehaviour
                 Vector2 Touch2Prev = Touch2.position - Touch2.deltaPosition;
 
                 float difference = Vector2.Distance(Touch1Current, Touch2Current) - Vector2.Distance(Touch1Prev, Touch2Prev);
-                zoom.z = difference * zoomSpeed;
-                position.x = Touch1.position.x * speed;
-                position.y = Touch1.position.y * speed;
+
+                if (Mathf.Abs(difference) < 2.5f)
+                {
+                    position.x += (Touch2.deltaPosition.x * speed);
+                    position.y += (Touch2.deltaPosition.y * speed);
+                }
+                else
+                {
+                    zoom.z += (difference * zoomSpeed);
+                    zoom.z = Mathf.Min(zoom.z, -2.5f);
+                }
             }
         }
         rotationPivot.transform.localRotation = Quaternion.Euler(rotation);

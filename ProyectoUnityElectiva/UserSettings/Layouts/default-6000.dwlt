@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 187
+  controlID: 97
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 128
+  controlID: 40
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 129
+  controlID: 41
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -369,7 +369,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00a4ffff18a4ffff66a6ffff74a6ffff82a6ffff96a6ffffa4a6ffffb8a6ffffe0a6ffff00a7ffffc2abfffff0b1ffff08b2ffff2ab4ffff3cb4ffff4eb4ffff66b4ffff78b4ffff90b4ffffbcb4ffffe0b4ffff28b7ffff4cb8fffff0b8ffff98b9ffff3cbaffffe0bafffffebbffffa4bcffffbcbdffffdcbeffff02c0ffff32c1ffff78c2ffff5ac5ffffa4d2ffffbcd2ffffd6d4ffffe0d4ffffead4fffffad4ffff04d5ffff14d5ffff38d5ffff54d5ffffead9ffff9adaffff42dbffffeedbffff94dcffff3addffffdee0ffff1ce2ffff5ae3ffff6ee4fffffae5ffffd8e6ffff52ebffff0eecffff4af3ffff62f3ffffb4f5ffffc6f5ffffd8f5fffff0f5ffff02f6ffff1af6ffff46f6ffff6af6ffff1cfbffff22be00002cbe0000d6bf00001ec00000d6c000006ec100008ec1000022c200004ac20000ccc200000ec30000ecc5000082c6000028cf000032cf000054cf0000
+      m_ExpandedIDs: 08b2ffff20b2ffff3eb4ffff4cb4ffff5ab4ffff6eb4ffff7cb4ffff90b4ffffb8b4ffffd8b4fffffebcffff16bdffff64bfffff72bfffff80bfffff94bfffffa2bfffffb6bfffffdebffffffebfffff26ebffff3eebffff90edffffa2edffffb4edffffccedffffdeedfffff6edffff22eeffff46eeffff1cfbffff26bf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Escenas Guia 2
+    - Assets/Scripts/Guia2
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1034,16 +1034,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets/Scenes/Escenas Guia 2
+  - Assets/Scripts/Guia2
   m_LastFoldersGridSize: 53
   m_LastProjectPath: C:\Users\juanp\OneDrive\Documentos\GitHub\ProyectoUnity_Electiva-\ProyectoUnityElectiva
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 105}
-    m_SelectedIDs: f4bc0000
-    m_LastClickedID: 48372
-    m_ExpandedIDs: 000000005ca700005ea7000060a7000062a7000064a7000092a8000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 169}
+    m_SelectedIDs: 88a80000
+    m_LastClickedID: 43144
+    m_ExpandedIDs: 0000000032a7000034a7000036a7000038a700003aa7000044a8000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005ca700005ea7000060a7000062a7000064a70000
+    m_ExpandedIDs: 0000000032a7000034a7000036a7000038a700003aa70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000022c700008eb7000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

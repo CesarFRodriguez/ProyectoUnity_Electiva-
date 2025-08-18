@@ -415,7 +415,7 @@ MonoBehaviour:
   Camera: {fileID: 1087948393}
   sensibility: 0.4
   zoomSpeed: 0.01
-  speed: 0.1
+  speed: 0.025
 --- !u!4 &1207561315
 Transform:
   m_ObjectHideFlags: 0
