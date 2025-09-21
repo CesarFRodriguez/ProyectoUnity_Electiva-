@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 76adf999303c48542aeb908e082da947, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -305,10 +305,35 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e7a46faf-1705-436e-87e9-b7fcad15a4db
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1641168934}
+        m_TargetAssemblyTypeName: TapHandler, Assembly-CSharp
+        m_MethodName: OnTap
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 4382d42c-a48b-4580-94be-5843649ac12e
+    m_ActionName: 'Player/Tap[/Mouse/press,/Pen/press,/Device Simulator Touchscreen/press]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f94b6d49-9149-466b-8e74-7cb3015421d0
+    m_ActionName: 'Player/Pointer-Position[/Mouse/position,/Pen/position,/Device
+      Simulator Touchscreen/position]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!4 &1025505542
@@ -475,7 +500,7 @@ GameObject:
   - component: {fileID: 1366559408}
   - component: {fileID: 1366559407}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Taptext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -528,8 +553,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -566,7 +591,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -380.17038, y: 0, z: -363.9308, w: -431.50098}
+  m_margin: {x: -380.17038, y: 177.38196, z: -120.90112, w: -431.50098}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -596,7 +621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 226}
+  m_AnchoredPosition: {x: 126, y: 762}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1641168932
@@ -643,12 +668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33e1fdefbc268941b2c25e729db52dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapAction: {fileID: 0}
-  pointerPositionAction: {fileID: 0}
-  mainCam: {fileID: 0}
-  raycastLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
+  cam: {fileID: 0}
+  tapText: {fileID: 1366559407}
 --- !u!1 &1743575987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a84c71d3a99404a408b7267a4c144146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 2
+  sceneIndex: 8
 --- !u!1 &7885787598300163025
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,6 +29,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escenas Guia 2/Vpad.unity
     guid: 3e46d47cdbe9b684b81f998e2e1d01bd
+  - enabled: 1
+    path: "Assets/Scenes/Gu\xEDa 3.unity"
+    guid: 8fafbb04221221e4cbe504273b2faa55
+  - enabled: 1
+    path: Assets/Scenes/Escenas Guia 3/Tap.unity
+    guid: c14abf3cbecb9a84bba57f8c44a12a60
+  - enabled: 1
+    path: Assets/Scenes/Escenas Guia 3/Joystick.unity
+    guid: 7bcd1a1951940e846932fdcbef3c62ad
+  - enabled: 1
+    path: Assets/Scenes/Escenas Guia 3/Pinch-to-Zoom.unity
+    guid: 34bce6d8936d77446b29466fd12aa005
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -65,16 +65,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Guia3\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Guia2\VirtualPad.cs" />
     <Compile Include="Assets\Scripts\Guia2\MultiTouch.cs" />
     <Compile Include="Assets\Scripts\Guia2\TouchScene.cs" />
+    <Compile Include="Assets\Scripts\Guia3\Pinch-to-Zoom.cs" />
     <Compile Include="Assets\Scripts\Menu_escenas.cs" />
+    <Compile Include="Assets\Scripts\Guia3\Joystick.cs" />
     <Compile Include="Assets\Scripts\Guia1\Move.cs" />
     <Compile Include="Assets\Scripts\RegistroGrupo.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Guia2\Gestos.cs" />
+    <Compile Include="Assets\Scripts\Guia3\TapHandler.cs" />
     <Compile Include="Assets\Scripts\Guia2\Acelerometro.cs" />
-    <Compile Include="Assets\Scripts\Guia3\Tap.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\BackButton.cs" />
   </ItemGroup>
