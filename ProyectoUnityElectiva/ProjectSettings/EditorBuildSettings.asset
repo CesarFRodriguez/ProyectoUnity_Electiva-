@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escenas Guia 3/Pinch-to-Zoom.unity
     guid: 34bce6d8936d77446b29466fd12aa005
+  - enabled: 1
+    path: "Assets/Scenes/Gu\xEDa 4.unity"
+    guid: aa70f4756dcc52c449b3a1d868adf849
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
