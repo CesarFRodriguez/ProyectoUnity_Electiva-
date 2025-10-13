@@ -66,8 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Guia3\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Guia4\JsonSerializationExample.cs" />
+    <Compile Include="Assets\Scripts\Guia4\MyData.cs" />
     <Compile Include="Assets\Scripts\Guia2\VirtualPad.cs" />
-    <Compile Include="Assets\Scenes\Guia 4\JsonSerializationExample.cs" />
     <Compile Include="Assets\Scripts\Guia2\MultiTouch.cs" />
     <Compile Include="Assets\Scripts\Guia2\TouchScene.cs" />
     <Compile Include="Assets\Scripts\Guia3\Pinch-to-Zoom.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Assets\Scripts\Guia2\Gestos.cs" />
     <Compile Include="Assets\Scripts\Guia3\TapHandler.cs" />
     <Compile Include="Assets\Scripts\Guia2\Acelerometro.cs" />
-    <Compile Include="Assets\Scenes\Guia 4\BasicObject.cs" />
+    <Compile Include="Assets\Scripts\Guia4\BasicObject.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\BackButton.cs" />
   </ItemGroup>
