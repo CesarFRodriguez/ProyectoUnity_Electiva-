@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "391218582329",
+    "firebase_url": "https://unity3dgamedb-2d55e-default-rtdb.firebaseio.com",
+    "project_id": "unity3dgamedb-2d55e",
+    "storage_bucket": "unity3dgamedb-2d55e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391218582329:android:a3708695f2567224eacee8",
+        "android_client_info": {
+          "package_name": "com.UMNG.videojuegogrupoPRUEBA1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC43DIgYctYpds4YdYAIsDMO53zo5yqVFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
